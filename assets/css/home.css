@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+a{
+    color: #dc3545!important;
+    text-decoration: none !important;
+}
+
+#userForm{
+    margin: 30px;
+    
+}
+
+footer{
+    text-align: center;
+    color: grey;
+   
+}
+
+#error{
+    color: red;
+    font-size: small;
+}
+
+#logoo{
+    height: 150px;
+    width: 300px;
+}
+
+.home-cover{
+    /* margin-top: 60px; */
+    background-image: url(../imgs/home.jpg);
+    width: 100%;
+    height: 100vh;   
+    position: relative;
+    max-width: 100%;
+    max-height: 91vh;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: blur(0px) brightness(90%);
+}
+
+
+.on-img{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 100%;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.on-img p{
+    color: white;
+    text-emphasis: none;
+    letter-spacing: 0.3px;
+    font-weight: bold;
+}
+.on-img a{
+    border: none;
+    font-size: 1.5em;
+    /* outline: 0; */
+    /* display: inline-block; */
+    margin-top: 70px;
+    font-weight: 600;
+    padding: 12px 40px 12px 40px;
+    color: white;
+    background-color: rgb(171,32,32);
+    /* text-align: center; */
+    cursor: pointer;
+}
+.on-img a:hover{
+    background-color: white;
+    color: rgb(171,32,32);
+}
+
+
+@media (max-width: 1020px){
+    .on-img{
+        top: 40%;
+        text-align: center;
+    }
+    .line-1{
+        margin:0 auto;
+    }
+}
+
+#on-img-p1{
+    font-size: 50px;
+    font-weight:900;
+    letter-spacing: -1.5px;
+    z-index: 50;
+}
+#on-img-p2{
+    font-size: 18px;
+    font-weight: 400;
+    white-space:pre-line;
+    margin-top: 30px;
+    z-index: 50;
+}
+@media (max-width:700px){
+    #on-img-p1{
+        font-size: 30px;
+    }
+    #on-img-p2{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:700px){
+    .on-img a{
+        padding: 10px 30px 10px 30px;
+        font-size: 1em;
+    }
+}
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.line-1{
+    position: relative;
+    left: 0; 
+    top: 10%;
+    text-align: left;
+
+
+
+    width: 6em;
+    /* margin: 0 auto; */
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    /* text-align: center; */
+    white-space: nowrap;
+    overflow: hidden;
+    /* transform: translate(-50%,-50%);     */
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(20) 1s 1 normal both,
+             blinkTextCursor 500ms steps(20) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 8.6em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+nav{
+    padding: 300px 300px 0 300px;
+}
+
+.flex{
+    display: flex;
+    background-color: rebeccapurple;
+}
+.box1{
+    flex: 1; 
+}  
+.box2{
+    flex: 1;
+}
+.box3{
+    flex: 1;
+}
+
+.card{
+    padding: 1rem;
+}
+
+.card-body{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.going-img1{
+    margin-top: 100px;
+    /* overflow: hidden; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/img1.jpg);
+    width: 100%;
+    height: 25em;   
+    position: relative;
+    max-width: 100%;
+    max-height: 100vh;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: 10%;
+    /* background-position-y: top; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(1px) brightness(20%); */
+}
+
+#cart-container{
+    text-align: center;
+    margin-top: 8vh;
+
+}
+
+#cart{
+    display: inline;
+    padding: 10px;    
+    border: 1px black solid;
+    border-radius: 10%;
+}
+
+.container-cart {
+    padding: 2rem 0rem;
+  }
+  
+  h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  .table-image td {
+      vertical-align: middle;
+  }
+  .table-image th {
+      vertical-align: middle;
+  }
+  
+  #row-cart{
+      margin: 5vh 3vw 10vh 3vw;
+  }
+
+  .login-b{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  .login-body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/gym.jpg);
+    width: 100%;
+    height: 100vh;   
+    position: relative;
+    max-width: 100%;
+    max-height: 91vh;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: blur(0px) brightness(90%);  
+}
+  .signup-body:not(nav){
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/gym3.jpg);
+    width: 100%;
+    height: 100vh;   
+    /* position: relative; */
+    max-width: 100%;
+    max-height: 91vh;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: blur(0px) brightness(90%);  
+}
+
+.form-group{
+    text-align: left;
+}
+
+#signup-card{
+    padding: 0 1rem 0 1rem;
+    width: 40rem;
+}
+
+@media (max-width: 1200px){
+    #signup-card{
+        width: 22rem;
+    }
+}
+
+#unnormal-button,#unnnormal-button{
+    color: white !important;
+}
+#unnnormal-button:hover{
+    color: rgb(171,32,32) !important;
+}
+
+#normal-button{
+    color: black !important;
+}
+#normal-button:hover{
+    color: white !important;
+}
